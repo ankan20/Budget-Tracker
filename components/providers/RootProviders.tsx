@@ -12,7 +12,7 @@ function RootProviders({ children }: { children: ReactNode }) {
             <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={true} disableTransitionOnChange={true}>
                 {children}
             </ThemeProvider>
-            <ReactQueryDevtools initialIsOpen={false} />
+            {/* <ReactQueryDevtools initialIsOpen={false} /> */}
         </QueryClientProvider>
     );
 }
